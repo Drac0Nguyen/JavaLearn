@@ -13,11 +13,12 @@ package OOP;
  *
  */
 
-public class ClassExample {
+public class 	ClassExample {
 
 	/**
 	 * @param args
 	 */
+	// đây là một class của object studentss
 	public class Student {
 	    // Khai báo thuộc tính
 	    private int id; 
@@ -27,6 +28,7 @@ public class ClassExample {
 	    public Student(int id) {
 	        // Sử dụng từ khóa this để truy cập thuộc tính trong lớp
 	        // nếu không sử dụng từ khóa this thì đang truy cập vào tham số của hàm khởi tạo
+			// đây là một object khi gọi( student 1 student 2 ...)
 	        this.id = id;
 	    }
 	  
